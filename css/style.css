@@ -1,0 +1,482 @@
+@media screen and (max-width:767px) {
+
+  #main-deploy .container {
+    width: 96%;
+    margin: auto;
+  }
+
+  #designed .container {
+    width: 96%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width:991px) {
+
+  #nav-1 {
+    display: none;
+  }
+
+  #nav-2 {
+    background-color: #0248ff;
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .ham {
+    display: none;
+  }
+
+}
+
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+/* note:
+grigio: #f3f6f9
+blu: #0248ff
+blu scuro: #031b4e
+verde acqua: #00d7d2
+testo grigio: #5b6987 */
+
+/* colori delle sezioni e del testo */
+
+header, #started {
+  background: #0248ff;
+}
+
+#loghi, #teams, #designed {
+  background: #f3f6f9;
+}
+
+#service, footer {
+  background: #031b4e;
+}
+
+#started a, #dx-intro {
+  background: #ffffff;
+}
+
+#sx-intro, #title-service, #service, #call-to-action, .title-footer  {
+  color: #ffffff;
+}
+
+.sotto-form, #form-termsofservice, #title-loghi, #deploy, #designed, #features, #teams, footer {
+  color: #5b6987;
+}
+
+#nav-2, #dx-intro h2, #deploy h2, #deploy h3, #designed h2, #features h2, #features h3, #teams h2 {
+  color: #031b4e;
+}
+
+.singup, #loghi a, #features a, #started a {
+  color: #0248ff
+}
+
+/* grandezza font */
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+/* NAVBAR 1 */
+
+#nav-1 {
+  font-size: 0.8em;
+  padding: 0.5% 2%;
+  margin-top: 0.5%;
+  border-bottom: 1px solid #5b6987;
+}
+
+.new {
+  font-size: 0.7em;
+  background: #00d7d2;
+  padding: 1%;
+  border-radius: 20%;
+}
+
+.now-available {
+  text-align: left;
+  padding-left: 2%;
+}
+
+.now-available a, .nav1dx a {
+  color: #5b6987;
+  text-decoration: none;
+}
+
+/* NAVBAR 2 */
+
+#nav-2 {
+  padding: 0.5% 2%;
+  margin: 1% 1%;
+}
+
+.signup {
+  text-align: right;
+}
+
+.signup a {
+  color: #0248ff;
+  text-decoration: none;
+  border: 1px solid #0248ff;
+  border-radius: 7px;
+  padding: 4% 8%;
+}
+
+.ham {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+/* INTRO */
+
+  /* intro sx */
+
+#intro {
+  width: 90%;
+  margin: auto;
+  padding: 7% 0;
+}
+
+#sx-intro {
+  text-align: left;
+  padding: 4% 0;
+}
+
+#sx-intro p {
+  font-size: 2em;
+  opacity: 0.7;
+}
+
+.titolo-intro {
+  padding: 6% 0;
+}
+
+  /* intro dx */
+
+#dx-intro {
+  border-radius: 10px;
+}
+
+#dx-intro h2 {
+  padding: 7% 5%;
+}
+
+input {
+  padding: 3px;
+  font-size: 1em;
+  color: #5b6987;
+}
+
+#dx-intro > .row {
+  width: 90%;
+  margin: auto;
+}
+
+#dx-intro input {
+  width: 100%;
+  padding: 2%;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+  margin-bottom: 4%;
+}
+
+.create-your-account {
+  width: 100%;
+  padding: 2%;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  background: #0248ff;
+  color: #ffffff;
+}
+
+.rigagrigia {
+  height: 1px;
+  background: #5b6987;
+  display: inline-block;
+  color: #5b6987;
+  margin: 10px 0;
+}
+
+.tasto-G {
+  width: 90%;
+  padding: 4%;
+  border: 1px solid #5b6987;
+  border-radius: 4px;
+  margin-top: 10%;
+  margin-right: 10%;
+  background: #f3f6f9;
+}
+
+.GitHub {
+  margin-left: 10%;
+}
+
+.tasto-G a {
+  text-decoration: none;
+  color: #031b4e;
+}
+
+.text-tasto-G {
+  text-align: left;
+}
+
+#form-termsofservice {
+  margin: 10% 0;
+  font-size: 0.8em;
+}
+
+/* LOGHI */
+
+#loghi .container {
+  width: 90%;
+  margin: auto;
+}
+
+#loghi #title-loghi {
+  padding-top: 3%;
+}
+
+#loghi #link-loghi {
+  padding-bottom: 3%;
+}
+
+#loghi img {
+  width: 70%;
+  height: auto;
+}
+
+#loghi li {
+  display: inline-block;
+  list-style-type: none;
+  width: calc((100%/6) - 4px);
+  vertical-align: middle;
+}
+
+/* DEPLOY */
+
+#deploy h2, #designed h2, #features h2, #service h2, #teams h2 {
+  /* padding-top: 10%; */
+  padding-bottom: 3%;
+}
+
+#deploy p, #designed p, #features p, #service p, #teams p {
+  font-size: 1.4em;
+}
+
+#deploy, #designed, #features, #service, #teams {
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+#deploy p {
+  width: 90%;
+  margin: auto;
+}
+
+  /* main-deploy */
+
+#deploy ul {
+  list-style-type: none;
+  text-align: left;
+  /* padding-left: 40%; */
+}
+
+#deploy li {
+  padding: 5%;
+}
+
+#deploy a {
+  text-decoration: none;
+  color: #5b6987;
+  font-size: 1.2em;
+}
+
+#main-deploy {
+  padding-top: 5%;
+  text-align: left;
+  width: 70%;
+  margin: auto;
+}
+
+#main-deploy nav {
+  border-left: 1px solid #5b6987;
+}
+
+#main-deploy h3 {
+  padding: 4% 0;
+}
+
+#main-deploy p {
+  font-size: 1.2em;
+  width: 100%;
+  padding-right: 3%;
+}
+
+#main-deploy .row {
+  padding-bottom: 30%;
+}
+
+/* DESIGNED */
+
+#designed .container {
+  width: 70%;
+  margin: auto;
+}
+
+#fig-designed img {
+  width: 80%;
+  margin: auto;
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+figcaption {
+  width: 60%;
+  margin: auto;
+}
+
+/* FEATURES */
+
+#features .col-lg-3 {
+  text-align: left;
+  padding: 0 3%;
+}
+
+#features h3 {
+  padding-top: 4%;
+}
+
+#features p {
+  font-size: 1.2em;
+  margin: 8% 0;
+  text-decoration: none;
+}
+
+#features a {
+  text-decoration: none;
+}
+
+/* SERVICE */
+
+#title-service {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+#paesi-service {
+  width: 94%;
+  margin: auto;
+}
+
+#paesi-service .paesi-row {
+  border-bottom: 1px solid #5b6987;
+  width: 96%;
+  margin: auto;
+  padding: 2% 0;
+}
+
+#service p {
+  font-size: 0.8em;
+}
+
+#service .paese {
+  color: #5b6987;
+}
+
+#service a {
+  color: #00d7d2;
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+ul {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #5b6987;
+}
+footer .row {
+  padding-top: 4%;
+}
+
+footer ul {
+  text-align: left;
+}
+
+#first-footer p {
+  padding: 10% 0;
+  text-align: left;
+}
+
+footer li {
+  padding: 2% 0;
+}
+
+#first-footer {
+  border-bottom: 1px solid #5b6987;
+  width: 96%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+#last-footer {
+  width: 92%;
+  margin: auto;
+  text-align: left;
+  padding-bottom: 6%;
+}
+
+#last-footer ul {
+  text-align: right;
+}
+
+#last-footer li {
+  display: inline-block;
+  padding: 0 2%;
+}
+
+/* STARTED */
+
+#call-to-action {
+  font-size: 2em;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+#started a {
+  text-decoration: none;
+  padding: 1% 4%;
+  border-radius: 5%;
+}
+
+#starded p {
+  width: 100%;
+}
+
+#fake-button-started {
+  padding-bottom: 3%;
